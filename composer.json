@@ -1,0 +1,14 @@
+{
+    "name": "shams/shams",
+    "require": {
+    },
+    "authors": [
+        {
+            "name": "Shams1dd1n",
+            "email": "shamsabdugafurov@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^9.6"
+    }
+}
