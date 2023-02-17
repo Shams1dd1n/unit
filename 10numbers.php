@@ -1,8 +1,7 @@
 <?php
-function giveNumber8($a, $b, $c, $d, $e, $f, $g, $h)
+function giveNumber($a,$b)
 {
-    $x = $a + $b + $c + $d;
-    $y = $x ** 8;
+    $y = $a ** $b;
     return $y;
 }
-echo giveNumber8(1,1,1,1,1,1,1,1);
+echo giveNumber(10, 8);

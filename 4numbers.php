@@ -1,8 +1,7 @@
 <?php
-function giveNumber($a, $b, $c, $d)
+function giveNumber($a, $b)
 {
-    $x = $a + $b + $c + $d;
-    $z = $x ** 3;
+    $z = $a ** $b;
     return $z;
 }
-echo giveNumber(1,1,1,1);
+echo giveNumber(4, 3);
