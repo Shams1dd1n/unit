@@ -1,8 +1,5 @@
 <?php
-function giveAllCombinations($a,$b)
-{
-
-    $y = $a ** $b;
-    return $y;
-}
-echo giveAllCombinations(10, 8);
+use App\Models\Combination;
+$number = new Combination();
+$number ->giveAllCombinations(10,8);
+echo $number;
