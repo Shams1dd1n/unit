@@ -1,8 +1,8 @@
 <?php
 
-class Sum
+class div
 {
-    public function sumof($div1, $div2)
+    public function divof($div1, $div2)
     {
 
         return $div1/$div2;
