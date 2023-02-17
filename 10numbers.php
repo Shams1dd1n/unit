@@ -1,7 +1,8 @@
 <?php
-function giveNumber($a,$b)
+function giveAllCombinations($a,$b)
 {
+
     $y = $a ** $b;
     return $y;
 }
-echo giveNumber(10, 8);
+echo giveAllCombinations(10, 8);
