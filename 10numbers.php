@@ -1,5 +1,4 @@
 <?php
-use App\Models\Combination;
-$number = new Combination();
-$number ->giveAllCombinations(10,8);
-echo $number;
+use App\Models\Combinator;
+
+echo Combinator::withRepetitions(10,8);

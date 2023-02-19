@@ -1,5 +1,3 @@
 <?php
-use App\Models\Combination;
-$number = new Combination();
-$number ->giveAllCombinations(4,3);
-echo $number;
+use App\Models\Combinator;
+echo Combinator::withRepetitions(4,3);
